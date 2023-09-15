@@ -1,0 +1,131 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 813
+  ClientWidth = 492
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Margins.Top = 5.000000000000000000
+    Position.Y = 5.000000000000000000
+    Size.Width = 492.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object SpeedButton2: TSpeedButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+      Text = 'SpeedButton2'
+      OnClick = SpeedButton2Click
+    end
+    object ScaledLayout1: TScaledLayout
+      Align = Client
+      Padding.Top = 7.000000000000000000
+      Padding.Bottom = 7.000000000000000000
+      OriginalWidth = 439.000000000000000000
+      OriginalHeight = 48.000000000000000000
+      Margins.Left = 5.000000000000000000
+      Size.Width = 439.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      object Button1: TButton
+        Align = Left
+        StyledSettings = [Family]
+        Margins.Left = 10.000000000000000000
+        Position.X = 124.000000000000000000
+        Position.Y = 7.000000000000000000
+        Size.Width = 129.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Aftership'
+        TextSettings.Font.Size = 22.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TintColor = claBlue
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Align = Left
+        StyledSettings = [Family]
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 7.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Cainiao'
+        TextSettings.Font.Size = 22.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TintColor = claBlue
+        OnClick = Button2Click
+      end
+      object Button4: TButton
+        Align = Left
+        StyledSettings = [Family]
+        Margins.Left = 10.000000000000000000
+        Position.X = 263.000000000000000000
+        Position.Y = 7.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = '1tracking'
+        TextSettings.Font.Size = 22.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TintColor = claBlue
+        OnClick = Button4Click
+      end
+    end
+  end
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 765.000000000000000000
+    Size.Width = 492.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout1: TLayout
+      Align = Center
+      Size.Width = 183.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      object SpeedButton3: TSpeedButton
+        Align = Left
+        Position.Y = 1.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'backtoolbutton'
+        Text = 'SpeedButton3'
+        OnClick = SpeedButton3Click
+      end
+      object SpeedButton4: TSpeedButton
+        Align = Right
+        Position.X = 135.000000000000000000
+        Position.Y = 1.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'nexttoolbutton'
+        Text = 'SpeedButton4'
+        OnClick = SpeedButton4Click
+      end
+    end
+  end
+  object WebBrowser1: TWebBrowser
+    EnableCaching = False
+    Align = Client
+    Size.Width = 492.000000000000000000
+    Size.Height = 712.000000000000000000
+    Size.PlatformDefault = False
+    WindowsEngine = IEOnly
+    OnDidFailLoadWithError = WebBrowser1DidFailLoadWithError
+  end
+end
